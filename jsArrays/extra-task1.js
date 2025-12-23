@@ -8,7 +8,7 @@ function average(array) {
     }
     return sum / array.length;
   } else {
-    return 'Your array is empty!';
+    return 0;
   }
 }
 
@@ -21,7 +21,7 @@ function average1(array) {
     const sum = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
     return sum / array.length;
   } else {
-    return 'Your array is empty!';
+    return 0;
   }
 }
 
