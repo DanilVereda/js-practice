@@ -21,8 +21,7 @@ export class EBook extends Book {
   }
 
   static convertToEbook(book, format) {
-    book.format = format;
-    return book;
+    return new EBook(book._name, book._author, book._year, format);
   }
 
   printInfo() {

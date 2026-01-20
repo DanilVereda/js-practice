@@ -1,5 +1,5 @@
 import { Book } from './Book.js';
-import { EBook } from './Ebook.js';
+import { EBook } from './EBook.js';
 
 const lotr = new Book('The Lord of the Rings', 'J.R.R.Tolkien', 1954);
 const harryPotter = new Book('Harry Potter and The chamber of secrets', 'J.K.Rowling', 1998);
