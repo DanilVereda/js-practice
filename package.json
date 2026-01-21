@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
+    "husky": "^9.1.7",
+    "prettier": "3.8.0"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "eslint:codeQualityTools": "npx eslint ./codeQualityTools/task1.js"
+  }
+}
